@@ -16,7 +16,7 @@
                 </div>
 
                 <button class="btn btn-default btn-block">
-                    <a href = ".?action = display_registration">Register</a>
+                    <a href = "index.php?action=display_registration">Register</a>
                 </button>
 
                 <button class="btn btn-primary btn-block">
