@@ -33,11 +33,16 @@
                     <input type="submit" value="Delete">
                 </form></td>
         </tr>
+        <!--
         <button2>
             <a href = ".?action=display_question_form&userId=<?php echo $userId ?>">Add Question</a>
         </button2>
+        -->
     <?php endforeach; ?>
 </table>
+    <button2>
+        <a href = ".?action=display_question_form&userId=<?php echo $userId ?>">Add Question</a>
+    </button2>
 </div>
 <?php include ('views/abstract-views/footer.php'); ?>
 
